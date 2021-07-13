@@ -5,9 +5,13 @@
   "username": "postgres",
   "password": "postgres",
   "database": "xilo",
-  "entities": ["dist/models/*.entity{.ts,.js}"],
+  "entities": [
+    "/home/igor/Desktop/nest-start-pack/src/models/*.entity.{ts,js}"
+  ],
   "migrationsTableName": "migration",
-  "migrations": ["src/migration/*.ts"],
+  "migrations": [
+    "/home/igor/Desktop/nest-start-pack/src/migration/*.{ts,js}"
+  ],
   "cli": {
     "migrationsDir": "src/migration"
   },
